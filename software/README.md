@@ -253,14 +253,4 @@ Este proyecto es una migración y optimización de la versión original en C#/.N
 
 
 
-## 📞 Soporte
-
-Para reportar problemas o solicitar características:
-
-1. Verifica la sección de solución de problemas
-2. Revisa los logs en la carpeta `logs/`
-3. Incluye información del sistema y pasos para reproducir el problema
-
----
-
 **Desarrollado con ❤️ para la materia TAM de la Unal Manizales**
