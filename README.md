@@ -1,6 +1,5 @@
 # Exploración Interactiva Acelerada de Volúmenes Médicos con UMAP en GPU
 
-![Demostración del Proyecto](https://via.placeholder.com/800x400.png?text=Añade+aquí+un+GIF+o+imagen+de+tu+proyecto)
 
 > Repositorio del proyecto que demuestra un pipeline computacional para la exploración interactiva de volúmenes médicos. El sistema utiliza un embedding de características con UMAP, acelerado en GPU con NVIDIA RAPIDS, y una interfaz de visualización 3D construida con Vedo.
 
@@ -75,37 +74,6 @@ El flujo de trabajo computacional se divide en tres etapas clave:
     *   Se utiliza `Vedo` para crear una aplicación de dos paneles.
     *   Una función de _callback_ se activa al hacer clic en el espacio UMAP, definiendo una **Región de Interés (ROI)**.
     *   El sistema identifica los vóxeles dentro del ROI y actualiza en tiempo real la TF del volumen 3D, asignando un color y opacidad distintivos a la selección.
-
-## Cómo Empezar
-
-Para ejecutar una copia local de este proyecto, sigue estos pasos.
-
-### Prerrequisitos
-
-Necesitarás un entorno con acceso a una **GPU NVIDIA compatible con CUDA** y los drivers correspondientes instalados. Se recomienda gestionar el entorno con `conda`.
-
-*   **NVIDIA Driver:** [https://www.nvidia.es/Download/index.aspx](https://www.nvidia.es/Download/index.aspx)
-*   **Conda:** [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
-
-### Instalación
-
-1.  Clona el repositorio:
-    ```sh
-    git clone https://github.com/tu_usuario/tu_repositorio.git
-    cd tu_repositorio
-    ```
-2.  Crea e instala el entorno de Conda usando el archivo `environment.yml` (si lo proporcionas):
-    ```sh
-    conda env create -f environment.yml
-    conda activate mi_entorno
-    ```
-3.  Si no tienes un archivo `environment.yml`, puedes instalar RAPIDS siguiendo las [instrucciones oficiales](https://rapids.ai/start.html#get-rapids). Luego, instala las demás dependencias:
-    ```sh
-    pip install vedo scikit-image tifffile
-    ```
-
-## Uso
-
 Para ejecutar la aplicación, utiliza el siguiente comando. Asegúrate de tener un conjunto de datos (por ejemplo, una serie de archivos TIF de una TC) en una carpeta accesible.
 
 ```sh
