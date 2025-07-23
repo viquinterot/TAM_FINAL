@@ -3,8 +3,6 @@
 Napari Widget para Medico3D
 Widget de visualización avanzada usando Napari para imágenes médicas 3D
 
-Autor: Medico3D Team
-Fecha: 2024
 """
 
 import numpy as np
