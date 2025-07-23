@@ -1,6 +1,5 @@
 """
 Módulo de procesamiento de imágenes médicas para Medico3D
-Integración mejorada de los scripts Python existentes
 """
 
 import os
