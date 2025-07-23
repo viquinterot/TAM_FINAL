@@ -4,8 +4,8 @@ TAM - Medical Image 3D UMAP
 Aplicación para análisis de imágenes médicas 3D con reducción de dimensionalidad UMAP
 Versión Python con interfaz PyQt5 y visualización VTK
 
-Autor: Migración optimizada de Medico3D original
-Fecha: 2024
+Autor: Víctor Quintero
+Fecha: Julio 2025
 """
 
 import sys
